@@ -1,0 +1,22 @@
+{
+  "name": "openai-nvidia-proxy",
+  "version": "1.0.0",
+  "description": "API proxy OpenAI vers NVIDIA NIM",
+  "type": "module",
+  "dependencies": {}
+}
+```
+
+## ⚙️ Configuration sur Vercel
+
+1. **Connectez votre dépôt GitHub à Vercel**
+2. **Ajoutez la variable d'environnement** :
+   - Allez dans Settings → Environment Variables
+   - Ajoutez : `NVIDIA_API_KEY` = votre clé API NVIDIA NIM
+3. **Déployez !**
+
+## 📱 Configuration sur Janitor AI Android
+
+Une fois déployé, utilisez votre URL Vercel :
+```
+https://votre-projet.vercel.app/v1/chat/completions
